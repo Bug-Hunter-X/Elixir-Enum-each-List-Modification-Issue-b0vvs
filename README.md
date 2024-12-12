@@ -1,0 +1,2 @@
+# Elixir Enum.each List Modification
+This example demonstrates a common misunderstanding when using `Enum.each` in Elixir to modify a list.  Directly modifying the list within the `Enum.each` function does not alter the original list. The solution showcases the correct approach using `Enum.filter` or `Enum.reduce` for transforming lists.
